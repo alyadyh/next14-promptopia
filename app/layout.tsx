@@ -5,7 +5,7 @@ export const metadata = {
   description: "Discover & Share AI Prompts",
 };
 
-const RootLayout = () => (
+const RootLayout = ({ children }) => (
     <html lang='en'>
       <body>
         <div className='main'>
