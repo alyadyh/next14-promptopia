@@ -27,7 +27,7 @@ const UpdatePrompt = () => {
     if (promptId) getPromptDetails();
   }, [promptId]);
 
-  const updatePrompt = async (e: any ) => {
+  const updatePrompt = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
 
